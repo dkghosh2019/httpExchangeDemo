@@ -1,0 +1,32 @@
+### .http files are only supported by IntelliJ IDEA  Ultimate editoin/paid version.
+### Find All pets
+GET http://localhost:8081/api/pets
+
+### Get pet by ID
+GET http://localhost:8081/api/pets/1
+
+### Create new pet
+POST http://localhost:8081/api/pets
+Content-Type: application/json
+
+{
+  "id": 3,
+  "name": "Kutu",
+  "type": "cat",
+  "favorite_food": "Chicken dinner"
+}
+
+### Update existing Content
+PUT http://localhost:8081/api/pets/2
+Content-Type: application/json
+
+{
+  "id": 2,
+   "name": "Laxmi",
+   "type": "cat",
+   "favorite_food": "Chicken"
+
+}
+
+### delete by id
+DELETE http://localhost:8081/api/pets/2
