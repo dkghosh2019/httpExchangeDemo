@@ -1,7 +1,7 @@
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/target/
-!^^/.idea/
+
+.mvn/wrapper/maven-wrapper.jar
+**/target/
+^^/.idea/
 
 
 ### IntelliJ IDEA ###
